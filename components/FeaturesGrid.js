@@ -197,7 +197,7 @@ const features = [
             text: "Can we have a feature to add a custom domain to IndiePage?",
             userImg:
               "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg",
-            userName: "Marc Lou",
+            userName: "John D.",
             createdAt: "2024-09-01T00:00:00Z",
           },
           {
@@ -245,7 +245,7 @@ const FeaturesGrid = () => {
     <section className="flex justify-center items-center w-full bg-base-200/50 text-base-content py-20 lg:py-32">
       <div className="flex flex-col max-w-[82rem] gap-16 md:gap-20 px-4">
         <h2 className="max-w-3xl font-black text-4xl md:text-6xl tracking-[-0.01em]">
-          Ship features <br /> users{" "}
+          BeInventive features <br /> users{" "}
           <span className="underline decoration-dashed underline-offset-8 decoration-base-300">
             really want
           </span>

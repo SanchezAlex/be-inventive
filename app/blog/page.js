@@ -22,8 +22,8 @@ export default async function Blog() {
           The {config.appName} Blog
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-          Learn how to ship your startup in days, not weeks. And get the latest
-          updates about the boilerplate
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          tincidunt, nunc in ultricies fermentum, nunc sapien varius ex, sed
         </p>
       </section>
 
