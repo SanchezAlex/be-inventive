@@ -59,7 +59,7 @@ const list = [
     // Optional, link to the person's testimonial. It's more trustable
     link: "https://twitter.com/john_doe/status/1234567890",
     // Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
-    img: "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg"
+    img: ""
     // You can display video testimonials to build more trust. Just swap the type above to "video" and add at least the video source below
     // videoSrc: "/jack.mp4"
   },

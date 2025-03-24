@@ -35,20 +35,22 @@ const Problem = () => {
     <section className="bg-neutral text-neutral-content">
       <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
         <h2 className="max-w-3xl mx-auto font-extrabold text-4xl md:text-5xl tracking-tight mb-6 md:mb-8">
-          Key Features:
+          Why Choose Be Inventive?
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20 text-left">
-          ✅ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget
+          ✅ AI-Powered Development – Enhance efficiency with intelligent automation
           <br/>
-          ✅ lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget
+          ✅ Scalable Architecture – Build platforms that grow with your business
           <br/>
-          ✅ lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget
+          ✅ Custom Web Solutions – Tailored applications for unique business needs
           <br/>
-          ✅ lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget
+          ✅ Seamless User Experience – Engaging, responsive, and intuitive design
           <br/>
-          ✅ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget
+          ✅ Future-Ready Technologies – Stay ahead with the latest web innovations
         </p>
+        At Be Inventive, we don’t just build websites—we engineer digital success. Let’s turn your ideas into reality and take your business to new heights. 🚀
 
+Let’s innovate together! Contact us today.
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
           <Step emoji="🧑‍💻" text="Lorem" />
 
