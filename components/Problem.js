@@ -1,3 +1,14 @@
+import problemImg from "@/app/public/images/problem-background.jpg";
+
+const backgroundStyle = {
+  backgroundImage: `url(${problemImg})`,
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  // height: '100vh',
+  // width: '100vw',
+};
+
 const Arrow = ({ extraStyle }) => {
   return (
     <svg
@@ -48,20 +59,9 @@ const Problem = () => {
           <br/>
           ✅ Future-Ready Technologies – Stay ahead with the latest web innovations
         </p>
-        At Be Inventive, we don’t just build websites—we engineer digital success. Let’s turn your ideas into reality and take your business to new heights. 🚀
+        {/* At Be Inventive, we don’t just build websites—we engineer digital success. Let’s turn your ideas into reality and take your business to new heights. 🚀
 
-Let’s innovate together! Contact us today.
-        <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
-          <Step emoji="🧑‍💻" text="Lorem" />
-
-          <Arrow extraStyle="max-md:-scale-x-100 md:-rotate-90" />
-
-          <Step emoji="😮‍💨" text="Lorem" />
-
-          <Arrow extraStyle="md:-scale-x-100 md:-rotate-90" />
-
-          <Step emoji="😔" text="Lorem" />
-        </div>
+Let’s innovate together! Contact us today. */}
       </div>
     </section>
   );

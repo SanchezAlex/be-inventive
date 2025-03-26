@@ -15,9 +15,9 @@ const features = [
     title: "Emails",
     description:
       "Send transactional emails, setup your DNS to avoid spam folder (DKIM, DMARC, SPF in subdomain), and listen to webhook to receive & forward emails",
-    type: "video",
-    path: "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm",
-    format: "video/webm",
+    type: "image",
+    path: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Emails",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -39,8 +39,8 @@ const features = [
     description:
       "Create checkout sessions, handle webhooks to update user's account (subscriptions, one-time payments...) and tips to setup your account & reduce chargebacks",
     type: "image",
-    path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    alt: "A computer",
+    path: 'https://images.unsplash.com/photo-1739989934256-99e15bee9906?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    alt: "A Payment Gateway",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -62,6 +62,9 @@ const features = [
     title: "Authentication",
     description:
       "Magic links setup, login with Google walkthrough, save user in MongoDB/Supabase, private/protected pages & API calls",
+    type: "image",
+    path: 'https://images.unsplash.com/photo-1600783245777-080fd7ff9253?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    alt: "Authentication",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -105,8 +108,8 @@ const features = [
     description:
       "Discover the power of BeInventive, a platform designed to streamline your workflow, enhance productivity, and foster creativity. With intuitive tools and seamless integrations, BeInventive helps you achieve more in less time.",
     type: "image",
-    path: "https://images.unsplash.com/photo-1581091870621-1f9d6a6f6d0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-    alt: "BeInventive Platform",
+    path: 'https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    alt: "BeInventive",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +122,12 @@ const features = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M12 6v6l4 2"
+          d="M12 14l9-5-9-5-9 5 9 5z"
+        />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M12 14l9-5-9-5-9 5 9 5z"
         />
       </svg>
     ),
@@ -172,7 +180,7 @@ const Item = ({ feature, isOpen, setFeatureSelected }) => {
 // Video are set to autoplay for best UX.
 const Media = ({ feature }) => {
   const { type, path, format, alt } = feature;
-  const style = "rounded-2xl aspect-square w-full sm:w-[26rem]";
+  const style = "rounded-2xl w-full";
   const size = {
     width: 500,
     height: 500,
@@ -220,9 +228,9 @@ const FeaturesAccordion = () => {
     >
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
-          Lorem ipsum dolor
+          Smart automation enhances
           <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
-             sit amet
+            user experience
           </span>
         </h2>
         <div className=" flex flex-col md:flex-row gap-12 md:gap-24">

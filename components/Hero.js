@@ -16,16 +16,16 @@ const Hero = () => {
           Get {config.appName}
         </button>
       </div>
-      <div className="lg:w-full">
+      <figure className="lg:w-full">
         <Image
           src={heroMainImg}
           alt="Product Demo"
-          className="w-full"
+          className="w-full rounded-2x1"
           priority={true}
           width={600}
           height={600}
         />
-      </div>
+      </figure>
     </section>
   );
 };
